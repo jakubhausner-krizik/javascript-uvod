@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+#title {
+    font-size: 60px;
+    display: flex;
+    font-weight: bold;
+}
+
+.ani {
+    animation-name: animation;
+    animation-duration: 400ms;
+}
+
+@keyframes animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    40% {
+        transform: rotate(16deg);
+    }
+
+    70% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
