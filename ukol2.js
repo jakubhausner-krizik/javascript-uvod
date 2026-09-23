@@ -2,7 +2,7 @@
 
 let cisla = 1;
 
-while (cisla < 101) {
+while (cisla <= 100) {
     console.log(cisla);
     cisla++;
 }

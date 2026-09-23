@@ -1,10 +1,9 @@
-// Vytvořte promněnou, do které se zadá číslo a následně pomocí funkce alert ukažte, zda je číslo sudé nebo liché
-// Použijte operátor modulo
+// Vytvořte proměnnou, do které se zadá věk a následně pomocí alert funkce ukažte, zda je člověk plnoletý.
 
-let cislo = 2;
+let vek = 18;
 
-if (cislo % 2 == 0) {
-    console.log("sudé");
+if (vek >= 18) {
+    alert("Je plnoletý");
 } else {
-    console.log("liché");
+    alert("Není plnoletý");
 }
